@@ -63,15 +63,12 @@ header{
     margin-left: -35px;
 }
 .paragraph{
-    width: 600px;
-    height: 400px;
-    background-color: cornflowerblue;
-    box-sizing: border-box;
-}
-p{
     border: 2px dotted black;
     background-color: #D1D631;
-    
+    width: 600px;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 24px;    
 }
 img{
     border-radius: 25px;
@@ -84,7 +81,7 @@ img{
 .circle{
     width: 200px;
     height: 200px;
-    border-radius: 100%;
+    border-radius: 50%;
     background-color: red;
     margin: 0 auto;
 }
@@ -96,6 +93,7 @@ a{
     font-size: 20px;
     margin: 0 10px;
     padding: 5px;
+    display: inline-block;
 }
 footer{
     text-align: center;
