@@ -61,8 +61,7 @@ table {
 }
 .box-2{
     border:2px solid #000;
-    outline: 1px solid black;
-    outline-offset: -4px;
+    border-style: double;
 }
 .box-4{
     border:4px black dotted;
@@ -72,23 +71,20 @@ h1{
   font-weight: bold;
   padding: 20px 15px;
 }
-.footer{
-    width: 90%;
-    height: 460px;
-    background-color: red;
-    border-top: 20px solid blue;
-    border-left: 20px solid green;
-    border-right: 20px solid gray;
-    border-bottom: 20px solid yellow;
-    display: inline-block;
-    box-sizing: border-box; 
-    padding: 20px 5px;
-    margin: 30px auto;
-    
+p{
+    width: 400px;
+    background: red;
+    font-size: 24px;
+    color: white;
+    padding: 24px;
+    border-top:10px solid blue;
+    border-right: 10px solid gray;
+    border-bottom: 10px solid yellow;
+    border-left: 10px solid green;
 }
-footer{
-    background-color: rgb(213, 112, 216);
-    text-align: center;
-    width: 26%;
-    margin:20px;
+.para-contained{
+    background-color: indigo;
+    display: inline-block;
+    padding: 48px 32px;
+    margin: 32px;
 }
