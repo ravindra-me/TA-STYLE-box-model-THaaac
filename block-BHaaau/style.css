@@ -1,0 +1,156 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+    word-spacing: 10px;
+    display: block;
+    width: 785px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+hr{
+    width: 25%;
+    border: 1px dashed lightgrey;
+}
+.h2-ex1{
+    font-size: 35px;
+    font-weight: 500;
+    margin: 30px auto;
+    text-align: center;
+}
+.h2-ex2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+section{
+    width:600px;
+    margin:20px auto;
+}
+.exercise1{
+    margin: 30px auto;
+    text-align: center;
+}
+.box-1{
+    width:160px;
+    height: 160px;
+    background-color: hotpink;
+    border: 5px solid black;
+    margin: 40px auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #e6739f;
+}
+.color{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.content-box{
+    background-color: lightseagreen;
+    display: block;
+    margin:10px;
+    width:140px;
+    height: 140px;
+}
+.border-color{
+    background-color: blueviolet;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.text{
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+}
+.content{
+    background-color: darkcyan;
+}
+.padding{
+    background-color: lightskyblue;
+}
+.border{
+    background-color: black;
+}
+.margin{
+    background-color: rgb(238, 136, 136);
+}
+.hr{
+    width: 75%;
+    border: 1px dashed lightgray;
+}
+.big-box{
+    width: 600px;
+    border:1px solid gray;
+    margin: 40px 0;
+    font-size: 0;
+}
+.small-box{
+    width: 180px;
+    display: inline-block;
+    height: 100px;
+    margin: 10px;
+    background-color: gray;
+}
+.ex2-head{
+    margin: 30px auto;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.section-box2{
+    border: 1px solid black;
+}
+.section-box3{
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+}
