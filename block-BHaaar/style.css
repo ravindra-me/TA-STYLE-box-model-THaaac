@@ -41,48 +41,49 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+section{
+    width: 1160px;
+    margin: 0 auto;
+    font-size: 0;
+}
 .box{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
     display: inline-block;
-    height: 250px;
-    box-sizing: border-box;
-    margin: 16px;
-    padding: 20px;
+    font-size: 24px;
+    margin: 10px;
     color: white;
+    padding: 16px;
+    box-sizing: border-box;
 }
-
 .big-box{
-    width:554px ;
-    background-color: red;
+    width: 500px;
 }
-.small-boxs{
-    width:267px;
+.google{
+    background-color: #FD5349;
 }
-.material-box{
-    background-color: green;
+.material{
+    background-color: #0F8871;
 }
-.doodle-box{
-    background-color: slateblue;
+.doodle{
+    background-color: #B62Cff;
 }
 .google-plus{
-     background-color: rgb(28, 169, 224);
+    background-color: deepskyblue;
 }
-.design-box{
-    background-color: aquamarine;
+.design{
+    background-color: forestgreen;
 }
-.glass-box{
-    background-color: chartreuse;
+.glass{
+    background-color: greenyellow;
 }
-.html-box{
+.html{
     background-color: yellow;
 }
-.css-box{
+.css{
     background-color: tomato;
 }
-.javascript-box{
-    background-color: brown;
-}
-
-section{
-    width: 75%;
-    margin: 20px auto;
+.javascript{
+    background-color: red;
 }
